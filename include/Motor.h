@@ -14,7 +14,7 @@
 
 #include <stdio.h>
 #include <string.h>
-#include "abstraction.h"
+#include "to_implement.h"
 
 // =============================================================================
 // Not implemented
@@ -28,9 +28,8 @@ void send(char *msg, int str_size);
 // =============================================================================
 // Class
 // =============================================================================
-class Motor
-{
-public:
+class Motor {
+   public:
     Motor();
     Motor(int pinA, int pinB);
 
