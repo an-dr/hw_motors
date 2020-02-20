@@ -25,9 +25,9 @@ class Motors_dc2platform {
     Motors_dc2platform(uint32_t dcRightA_pin, uint32_t dcRightB_pin,
                        uint32_t dcLeftA_pin, uint32_t dcLeftB_pin);
 
-    void MoveForward();
-    void MoveBackward();
-    void MoveLeft();
-    void MoveRight();
-    void Stop();
+    void MoveForward(void);
+    void MoveBackward(void);
+    void MoveLeft(void);
+    void MoveRight(void);
+    void Stop(void);
 };
