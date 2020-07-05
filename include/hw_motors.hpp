@@ -10,5 +10,7 @@
 //
 // *************************************************************************
 
-void set_pin(int pin, bool value);
-void init_write_pin(int pin);
+#pragma once
+
+#include "Motor.hpp"
+#include "Motors_dc2platform.hpp"

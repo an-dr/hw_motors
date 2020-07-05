@@ -13,7 +13,7 @@
 #pragma once
 
 #include <stdint.h>
-#include "Motor.h"
+#include "Motor.hpp"
 
 class Motors_dc2platform {
    private:

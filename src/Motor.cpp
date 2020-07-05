@@ -10,7 +10,7 @@
 //
 // *************************************************************************
 
-#include "Motor.h"
+#include "Motor.hpp"
 
 Motor::Motor(int pinA, int pinB) : pinA(pinA), pinB(pinB) {
     init_write_pin(pinA);

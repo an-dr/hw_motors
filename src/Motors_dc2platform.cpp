@@ -10,7 +10,7 @@
 //
 // *************************************************************************
 
-#include "Motors_dc2platform.h"
+#include "Motors_dc2platform.hpp"
 
 Motors_dc2platform::Motors_dc2platform(uint32_t dcRightA_pin,
                                        uint32_t dcRightB_pin,
