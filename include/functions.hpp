@@ -12,14 +12,5 @@
 
 #pragma once
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-
 void set_pin(int pin, bool value);
 void init_write_pin(int pin);
-
-#ifdef __cplusplus
-}
-#endif
