@@ -11,6 +11,8 @@
 // *************************************************************************
 
 #pragma once
+#include <stdint.h>
 
 void set_pin(int pin, bool value);
 void init_write_pin(int pin);
+void motors_delay(uint32_t ms);

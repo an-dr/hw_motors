@@ -16,18 +16,18 @@
 #include "Motor.hpp"
 
 class Motors_dc2platform {
-   private:
+private:
     Motor dc_left;
     Motor dc_right;
 
-   public:
+public:
     Motors_dc2platform();
     Motors_dc2platform(uint32_t dcRightA_pin, uint32_t dcRightB_pin,
                        uint32_t dcLeftA_pin, uint32_t dcLeftB_pin);
 
-    void MoveForward(void);
-    void MoveBackward(void);
-    void MoveLeft(void);
-    void MoveRight(void);
-    void Stop(void);
+    void MoveForward(uint32_t ms);
+    void MoveBackward(uint32_t ms);
+    void MoveLeft(uint32_t ms);
+    void MoveRight(uint32_t ms);
+    void Stop(uint32_t ms);
 };

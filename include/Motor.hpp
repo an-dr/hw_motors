@@ -28,7 +28,7 @@ void send(char *msg, int str_size);
 // Class
 // =============================================================================
 class Motor {
-   public:
+public:
     Motor();
     Motor(int pinA, int pinB);
 
