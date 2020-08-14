@@ -42,8 +42,8 @@ void Motor::backward_or_counterclock()
 
 void Motor::stop()
 {
-    set_pin(pinA, false);
-    set_pin(pinB, false);
+    set_pin(pinA, true);
+    set_pin(pinB, true);
 }
 
 Motor::Motor() : pinA(0), pinB(0)
